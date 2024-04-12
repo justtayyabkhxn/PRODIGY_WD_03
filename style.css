@@ -1,0 +1,104 @@
+body {
+  background: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+.cell {
+  width: 150px;
+  height: 150px;
+  border: 0.05px solid rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+#mainconatiner {
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border: solid black;
+  margin-left:auto;
+  margin-right: auto;
+}
+#cellsgrid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 25%;
+  margin: auto;
+  font-weight: bold;
+  padding: auto;
+  font-size: 5.5rem;
+  text-align: center;
+  box-shadow: 2px 2px 2px black;
+  color: rgb(255, 115, 0);
+  text-shadow: 2px 2px 2px black;
+}
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+  margin-left:auto;
+}
+#status {
+  text-align: center;
+}
+#restartbtn {
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 2rem;
+  color: white;
+  background: rgb(2, 164, 2);
+  box-shadow: 2px 2px 2px rgb(74, 153, 4);
+}
+button {
+  font-family: "Poppins", sans-serif;
+  height: 40px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 20px 30px 0px rgb(0, 0, 0, 0, 0.5);
+  font-size: 0.9rem;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  transition: all 0.5s ease-out;
+  
+}
+#restartbtn:hover {
+  background-color: rgb(58, 157, 0);
+}
+#restartbtn:active {
+  transform: scale(0.85);
+}
+.restartbtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.75rem;
+}
+h2 {
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: normal;
+  font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+.footerbottom {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+  font-size: 0.85rem;
+  font-family: "Poppins", sans-serif;
+  color:white;
+}
